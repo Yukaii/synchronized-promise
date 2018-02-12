@@ -1,6 +1,6 @@
 {
   "name": "synchronized-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turn ES6 Promise into synchronize function call, a simple wrapper of deasync package",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yukaii/synchronize-promise.git"
+    "url": "https://github.com/Yukaii/synchronized-promise.git"
   },
   "keywords": [
     "promise",
@@ -20,9 +20,9 @@
   "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Yukaii/synchronize-promise/issues"
+    "url": "https://github.com/Yukaii/synchronized-promise/issues"
   },
-  "homepage": "https://github.com/Yukaii/synchronize-promise#readme",
+  "homepage": "https://github.com/Yukaii/synchronized-promise#readme",
   "dependencies": {
     "deasync": "^0.1.12"
   },
