@@ -1,5 +1,5 @@
 import test from 'ava'
-import sp from './dist'
+import sp from './lib'
 
 let asyncFunctionBuilder = (success, value = 5) => () => {
   return new Promise((resolve, reject) => {
