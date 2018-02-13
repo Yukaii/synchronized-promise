@@ -1,5 +1,8 @@
 # synchronized-promise
 
+[![npm version](https://badge.fury.io/js/synchronized-promise.svg)](https://badge.fury.io/js/synchronized-promise)
+[![Build Status](https://travis-ci.org/Yukaii/synchronized-promise.svg?branch=master)](https://travis-ci.org/Yukaii/synchronized-promise)
+
 Turn ES6 Promise into synchronize function call, a simple wrapper of deasync package
 
 ## Installation
