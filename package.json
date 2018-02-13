@@ -17,6 +17,9 @@
     "deasync",
     "synchronize"
   ],
+  "engines": {
+    "node" : ">=4.2.0"
+  },
   "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
   "license": "MIT",
   "bugs": {
