@@ -17,18 +17,20 @@ npm install synchronized-promise --save
 const sp = require('synchronized-promise')
 
 // An promise base async function
-let asyncFunction = () => {
+let asyncFunction = (value) => {
   return new Promise((resolve, reject) => {
     setTimeout(function () {
-      resolve(5)
+      resolve(value)
     }, 2000)
   })
 }
 
 // regular usage
-asyncFunction().then(value => value === 5)
+asyncFunction(5).then(value => value === 5)
 
 // make it synchronized
 let syncFunc = sp(asyncFunction)
-const value = syncFunc() // value === 5
+const value = syncFunc(5) // value === 5
 ```
+
+See [`test.js`](https://github.com/Yukaii/synchronized-promise/blob/master/test.js) for usage in detail
