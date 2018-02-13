@@ -1,7 +1,7 @@
 import test from 'ava'
 import sp from './lib'
 
-let asyncFunctionBuilder = (success, value = 5) => () => {
+let asyncFunctionBuilder = (success) => (value, timeouts = 1000) => {
   return new Promise((resolve, reject) => {
     setTimeout(function () {
       if (success) {
@@ -9,15 +9,15 @@ let asyncFunctionBuilder = (success, value = 5) => () => {
       } else {
         reject(new TypeError(value))
       }
-    }, 1000)
+    }, timeouts)
   })
 }
 
 test('Async function transform', t => {
-  const expectedReturn = 5
-  const syncFunc = sp(asyncFunctionBuilder(true, expectedReturn))
+  const syncFunc = sp(asyncFunctionBuilder(true))
 
-  const returnValue = syncFunc()
+  const expectedReturn = 5
+  const returnValue = syncFunc(expectedReturn)
 
   t.is(returnValue, expectedReturn)
 
@@ -26,22 +26,22 @@ test('Async function transform', t => {
 
 test('it would throw promise rejection', t => {
   const expectedReturn = '🦄'
-  const syncFunc = sp(asyncFunctionBuilder(false, expectedReturn))
+  const syncFunc = sp(asyncFunctionBuilder(false))
 
   const error = t.throws(() => {
-    syncFunc()
+    syncFunc(expectedReturn)
   }, TypeError)
 
   t.is(error.message, expectedReturn);
 })
 
 test('Get timeout error', t => {
-	const timeoutFunc = sp(asyncFunctionBuilder(true), { timeouts: 500 })
+  const timeoutFunc = sp(asyncFunctionBuilder(true), { timeouts: 100 })
 
-	const error = t.throws(() => {
-		timeoutFunc()
-	}, Error)
+  const error = t.throws(() => {
+    timeoutFunc(undefined, 1000)
+  }, Error)
 
-	t.truthy(error.message.match('called timeout'))
+  t.truthy(error.message.match('called timeout'))
 })
 
