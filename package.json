@@ -1,6 +1,6 @@
 {
   "name": "synchronized-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Turn ES6 Promise into synchronize function call, a simple wrapper of deasync package",
   "main": "dist/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "synchronize"
   ],
   "engines": {
-    "node" : ">=4.2.0"
+    "node": ">=4.2.0"
   },
   "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
   "license": "MIT",
