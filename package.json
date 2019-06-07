@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/Yukaii/synchronized-promise#readme",
   "dependencies": {
-    "deasync": "^0.1.12"
+    "deasync": "^0.1.15"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.39",
-    "@babel/core": "^7.0.0-beta.39",
-    "@babel/preset-env": "^7.0.0-beta.39",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "ava": "^0.25.0"
   }
 }
