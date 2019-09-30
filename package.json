@@ -4,7 +4,7 @@
   "description": "Turn ES6 Promise into synchronize function call, a simple wrapper of deasync package",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "build": "babel lib -d dist",
     "test": "ava"
   },
