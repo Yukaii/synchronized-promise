@@ -24,6 +24,17 @@ test('Async function transform', t => {
   t.pass()
 })
 
+test('it should resolve undefined promise result', t => {
+  const syncFunc = sp(asyncFunctionBuilder(true))
+
+  const expectedReturn = undefined
+  const returnValue = syncFunc(expectedReturn)
+
+  t.is(returnValue, expectedReturn)
+
+  t.pass()
+})
+
 test('it would throw promise rejection', t => {
   const expectedReturn = '🦄'
   const syncFunc = sp(asyncFunctionBuilder(false))
