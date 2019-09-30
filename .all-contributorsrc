@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "masquevil",
+      "name": "侠小然",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3344691?v=4",
+      "profile": "https://github.com/masquevil",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "synchronized-promise",
+  "projectOwner": "Yukaii",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
