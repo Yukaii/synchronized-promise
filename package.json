@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Turn ES6 Promise into synchronize function call, a simple wrapper of deasync package",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "babel lib -d dist",
