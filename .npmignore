@@ -1,1 +1,5 @@
 .all-contributorsrc
+.travis.yml
+.babelrc
+lib
+test.js
