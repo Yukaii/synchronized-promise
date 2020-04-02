@@ -14,9 +14,21 @@ npm install synchronized-promise --save
 
 ## Usage
 
+First, you need to require the `synchronized-promise` packgage, for JavaScript:
+
 ```js
 const sp = require('synchronized-promise')
+```
 
+For TypeScript or ES6 later JavaScript:
+
+```ts
+import sp from 'synchronized-promise'
+```
+
+Then call it as the following example:
+
+```js
 // An promise base async function
 let asyncFunction = (value) => {
   return new Promise((resolve, reject) => {
@@ -34,7 +46,7 @@ let syncFunc = sp(asyncFunction)
 const value = syncFunc(5) // value === 5
 ```
 
-See [`test.js`](https://github.com/Yukaii/synchronized-promise/blob/master/test.js) for usage in detail
+See [`test.js`](https://github.com/Yukaii/synchronized-promise/blob/master/test.js) for usage in details.
 
 ## Contributors ✨
 
