@@ -14,7 +14,7 @@ npm install synchronized-promise --save
 
 ## Usage
 
-First, you need to require the `synchronized-promise` packgage, for JavaScript:
+First, you need to require the `synchronized-promise` package, for JavaScript:
 
 ```js
 const sp = require('synchronized-promise')
