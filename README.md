@@ -57,13 +57,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/masquevil"><img src="https://avatars1.githubusercontent.com/u/3344691?v=4" width="100px;" alt=""/><br /><sub><b>侠小然</b></sub></a><br /><a href="https://github.com/Yukaii/synchronized-promise/commits?author=masquevil" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/clar-cmp"><img src="https://avatars3.githubusercontent.com/u/54909317?v=4" width="100px;" alt=""/><br /><sub><b>Clar Charron</b></sub></a><br /><a href="https://github.com/Yukaii/synchronized-promise/commits?author=clar-cmp" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/masquevil"><img src="https://avatars1.githubusercontent.com/u/3344691?v=4?s=100" width="100px;" alt=""/><br /><sub><b>侠小然</b></sub></a><br /><a href="https://github.com/Yukaii/synchronized-promise/commits?author=masquevil" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/clar-cmp"><img src="https://avatars3.githubusercontent.com/u/54909317?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Clar Charron</b></sub></a><br /><a href="https://github.com/Yukaii/synchronized-promise/commits?author=clar-cmp" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/papb"><img src="https://avatars.githubusercontent.com/u/20914054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pedro Augusto de Paula Barbosa</b></sub></a><br /><a href="https://github.com/Yukaii/synchronized-promise/commits?author=papb" title="Documentation">📖</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
